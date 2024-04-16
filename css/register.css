@@ -1,0 +1,101 @@
+* {
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.registerForm {
+    background-color: #61275d;
+}
+
+.Rform {
+    border-radius: 5px;
+    background-color: #61275d;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.text-input {
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 15px;
+}
+
+.text-input input {
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    border-color: #b3b3b3;
+    border-width: 2px;
+    height: 39px;
+    padding: 9px;
+    
+}
+
+.password-option {
+    accent-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.password-option a {
+    font-weight: bold;
+}
+
+.password-option a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.register-button button {
+    background: #525CEB;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.register-button button:hover {
+    background: white;
+    color: black;
+}
+
+.registerForm p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.registerForm p a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.registerForm p a:hover {
+    cursor: pointer;
+}
+
+label {
+    margin-left: 2px;
+}
